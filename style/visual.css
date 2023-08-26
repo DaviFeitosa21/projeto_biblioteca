@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+/*=====Cabeçalho=====*/
+
+.container-cabecalho {
+    background-color: #183D3D;
+    padding: 5px;
+}
+
+.container-cabecalho h1 {
+    text-shadow: 3px 2px #93B1A6;
+}
+
+
+/*=====Menu Navegação=====*/
+
+.menu-nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    list-style: none;
+}
+
+.nav-link {
+    background-color: #93B1A6;
+    padding: 10px;
+    border: none ;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #183D3D;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*=====Menu Livros=====*/
+
+.container-livros {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.livro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+}
+
+.indisponivel {
+    opacity: 0.3;
+}
+
+.livro h2 {
+    color: #635666;
+    font-size: 19px;
+    padding: 5px;
+}
+
+.livro p {
+    padding: 5px;
+}
+
+.autor {
+    color: #93B1A6;
+}
+
+.preco {
+    font-size: 25px;
+    font-weight: 600;
+    color: #35155D;
+}
+
+.categoria {
+    background-color: #93B1A6;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+/*=====Menu Navegação=====*/
+
+footer {
+    padding: 15px;
+    text-align: center;
+    background-color: #183D3D;
+}
